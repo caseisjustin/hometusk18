@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Masala 2</title>
+</head>
+<body>
+    
+    <div class="bigdiv">
+        <div class="head">
+            <label for="city">
+                <input placeholder="Enter city name" type="text" class="cityname">
+            </label>
+            <button onclick="cityWeathergetter()">Get weather</button>
+        </div>
+        <div class="body">
+            <ul type="none">
+                <li>Shaxar: <h3 class="city"></h3></li>
+                <li>Temperature: <h3 class="temp"></h3></li>
+                <li>Shamol Tezligi: <h3 class="wind"></h3></li>
+                <li>Namlik: <h3 class="wet"></h3></li>
+                <li>Bosim: <h3 class="pressure"></h3></li>
+                <li>Holat: <h3 class="event"></h3></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="./getCityWeather.js"></script>
+</body>
+</html>
